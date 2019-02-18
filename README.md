@@ -129,7 +129,7 @@ ReactDOM.render(
 registerServiceWorker();
 ```
 
-Open `src/index.js`. Since we're using routing we'll be needing to import `HashRouter` from `react-router-dom` and wrap the `router` invocation.
+Open `src/app.js`. Since we're using routing we'll be needing to import `HashRouter` from `react-router-dom` and wrap the `router` invocation.
 
 ```js
 import { HashRouter } from 'react-router-dom'
